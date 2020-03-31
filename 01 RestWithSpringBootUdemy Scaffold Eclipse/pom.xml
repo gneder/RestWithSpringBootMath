@@ -1,6 +1,0 @@
-<project xmlns="http://maven.apache.org/POM/3.3.9 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/3.3.9 https://maven.apache.org/xsd/maven-3.3.9.xsd">
-  <modelVersion>3.3.9</modelVersion>
-  <groupId>br.com.erudio</groupId>
-  <artifactId>rest-with-springboot-udemy</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-</project>
