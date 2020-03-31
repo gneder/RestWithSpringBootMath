@@ -1,4 +1,4 @@
-package br.com.erudio.math;
+package br.com.neder.math;
 
 public class SimpleMath {
 	
