@@ -1,4 +1,4 @@
-# RestWithSpringBoot
+# MathCalculator
 
 API create for realize, Sun, Subtraction, Multiplication, Division, Mean and SquareRoot.
 
