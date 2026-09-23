@@ -18,13 +18,13 @@ class MathControllerTest {
 
 	@Test
 	void sumReturnsCorrectResult() {
-		Double result = restTemplate.getForObject("/sun/3/4", Double.class);
+		Double result = restTemplate.getForObject("/sum/3/4", Double.class);
 		assertEquals(7.0, result);
 	}
 
 	@Test
 	void subtractionReturnsCorrectResult() {
-		Double result = restTemplate.getForObject("/subtration/10/4", Double.class);
+		Double result = restTemplate.getForObject("/subtraction/10/4", Double.class);
 		assertEquals(6.0, result);
 	}
 
@@ -54,7 +54,7 @@ class MathControllerTest {
 
 	@Test
 	void nonNumericInputReturnsBadRequest() {
-		ResponseEntity<String> response = restTemplate.getForEntity("/sun/abc/4", String.class);
+		ResponseEntity<String> response = restTemplate.getForEntity("/sum/abc/4", String.class);
 		assertEquals(HttpStatus.BAD_REQUEST, response.getStatusCode());
 	}
 }

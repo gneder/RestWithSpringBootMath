@@ -2,7 +2,7 @@ package br.com.neder.math;
 
 public class SimpleMath {
 	
-	public Double sun(Double firstNumber, Double secondNumber) {
+	public Double sum(Double firstNumber, Double secondNumber) {
 		return firstNumber + secondNumber;
 	}
 	

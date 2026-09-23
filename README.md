@@ -6,8 +6,8 @@ Lives in [`RestWithSpringBootCalculator/`](RestWithSpringBootCalculator), on Spr
 
 ## Endpoints
 
-- `GET /sun/{a}/{b}`
-- `GET /subtration/{a}/{b}`
+- `GET /sum/{a}/{b}`
+- `GET /subtraction/{a}/{b}`
 - `GET /multiplication/{a}/{b}`
 - `GET /division/{a}/{b}`
 - `GET /mean/{a}/{b}`
