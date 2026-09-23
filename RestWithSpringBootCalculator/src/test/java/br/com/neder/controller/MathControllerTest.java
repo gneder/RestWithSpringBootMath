@@ -41,6 +41,12 @@ class MathControllerTest {
 	}
 
 	@Test
+	void meanReturnsAverageOfBothNumbers() {
+		Double result = restTemplate.getForObject("/mean/10/4", Double.class);
+		assertEquals(7.0, result);
+	}
+
+	@Test
 	void squareRootReturnsCorrectResult() {
 		Double result = restTemplate.getForObject("/squareRoot/9", Double.class);
 		assertEquals(3.0, result);

@@ -52,7 +52,7 @@ public class MathController {
 		if (!NumberConverter.isNumeric(numberOne)  ||  !NumberConverter.isNumeric(numberTwo)) {
 			throw new UnsuportedMathOperationException("Please set a numeric value!");			
 		}
-		return math.division(NumberConverter.convertToDouble(numberOne), NumberConverter.convertToDouble(numberTwo));
+		return math.mean(NumberConverter.convertToDouble(numberOne), NumberConverter.convertToDouble(numberTwo));
 	}
 	
 	@RequestMapping(value="/squareRoot/{number}", method=RequestMethod.GET)
